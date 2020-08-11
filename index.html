@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>Weather update</title>
+		<meta
+			name="description"
+			content="A simple web app to show temperature data"
+		/>
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+		<!-- fontsheet -->
+		<link
+			href="https://fonts.googleapis.com/css2?family=Antic+Slab&family=Roboto:wght@300&display=swap"
+			rel="stylesheet"
+		/>
+
+		<!-- stylesheets -->
+		<link
+			rel="stylesheet"
+			href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+			integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+			crossorigin="anonymous"
+		/>
+		<link rel="stylesheet" href="index.css" />
+	</head>
+
+	<body>
+		<div class="img"></div>
+		<div class="container centre">
+			<h1>Enter City and Country</h1>
+			<form action="/" method="post">
+				<div class="input-cont">
+					<label for="cityinput">City name:</label>
+					<input
+						id="cityinput"
+						class="inputs"
+						type="text"
+						name="cityName"
+						required
+					/>
+				</div>
+				<div class="input-cont">
+					<label for="ctryinput">Country name:</label>
+					<input
+						id="ctryinput"
+						class="inputs"
+						type="text"
+						name="ctryName"
+						required
+					/>
+				</div>
+				<button class="btn btn-dark btn-sm" type="submit">Go</button>
+			</form>
+		</div>
+		<footer class="centre">
+			<h5>
+				&copy;
+				<a href="https://www.linkedin.com/in/pooja-penumala/" target="blank">
+					Pooja Penumala | Web-Developer
+				</a>
+			</h5>
+		</footer>
+	</body>
+</html>
